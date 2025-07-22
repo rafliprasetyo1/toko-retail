@@ -1,0 +1,55 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*
+.phpunit.result.cache
+.phpunit.cache
+Homestead.yaml
+Homestead.json
+npm-debug.log
+yarn-error.log
+auth.json
+
+# Laravel IDE / Tools
+/.phpactor.json
+/.phpunit.result.cache
+/.phpunit.cache
+/.phpstorm.meta.php
+/.idea
+/.vscode
+/.fleet
+/.zed
+
+# Vite / Laravel Mix builds
+/public/build
+/public/hot
+
+# Laravel Sail
+docker-compose.override.yml
+
+# Ignored by default but allow flag icons you need
+/public/aset-admin/assets/img/flags/*
+!/public/aset-admin/assets/img/flags/id.png
+!/public/aset-admin/assets/img/flags/us.png
+
+# Laravel custom cache
+/storage/framework/cache/data
+/storage/logs
+
+# Jetstream / Fortify / Breeze cache
+/storage/pail
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+*.sqlite
+
+/public/aset-admin
+
+/public/images/Microsoft VS Code/
+/public/images/**/*.exe
+*.exe
